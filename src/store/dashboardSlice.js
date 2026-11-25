@@ -26,7 +26,9 @@ const initialState = {
   searchQuery: '',
   isAddWidgetModalOpen: false,
   activeModalCategoryTab: 'cspm', // default selected tab
-  targetAddCategory: null // when clicking "+ Add Widget" on a specific card
+  targetAddCategory: null, // when clicking "+ Add Widget" on a specific card
+  selectedTimeRange: 'Last 2 days',
+  notificationToast: null
 };
 
 export const dashboardSlice = createSlice({
@@ -35,6 +37,15 @@ export const dashboardSlice = createSlice({
   reducers: {
     setSearchQuery: (state, action) => {
       state.searchQuery = action.payload;
+    },
+    setTimeRange: (state, action) => {
+      state.selectedTimeRange = action.payload;
+    },
+    setToast: (state, action) => {
+      state.notificationToast = action.payload;
+    },
+    clearToast: (state) => {
+      state.notificationToast = null;
     },
     openModal: (state, action) => {
       state.isAddWidgetModalOpen = true;
@@ -93,6 +104,9 @@ export const dashboardSlice = createSlice({
 
 export const {
   setSearchQuery,
+  setTimeRange,
+  setToast,
+  clearToast,
   openModal,
   closeModal,
   setActiveModalCategoryTab,
