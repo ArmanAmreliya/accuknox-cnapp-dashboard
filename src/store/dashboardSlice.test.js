@@ -69,3 +69,4 @@ describe('dashboardSlice reducers', () => {
     expect(cspmCategory.widgets[0].id).toBe('cloud-accounts');
   });
 });
+

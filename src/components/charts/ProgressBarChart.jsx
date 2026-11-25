@@ -45,3 +45,4 @@ export const ProgressBarChart = ({ segments, subtitle }) => {
     </div>
   );
 };
+

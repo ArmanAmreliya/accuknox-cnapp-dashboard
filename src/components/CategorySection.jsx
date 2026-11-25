@@ -39,3 +39,4 @@ export const CategorySection = ({ category, searchQuery, onRemoveWidget, onAddWi
     </section>
   );
 };
+

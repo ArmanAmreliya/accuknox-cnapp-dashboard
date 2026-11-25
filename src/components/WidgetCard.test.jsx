@@ -24,3 +24,4 @@ describe('WidgetCard Component', () => {
     expect(mockRemove).toHaveBeenCalledWith('w-1');
   });
 });
+

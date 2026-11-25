@@ -52,3 +52,4 @@ export const WidgetCard = ({ widget, onRemove }) => {
     </div>
   );
 };
+

@@ -56,3 +56,4 @@ export const DonutChart = ({ data, total, centerLabel }) => {
     </div>
   );
 };
+

@@ -45,3 +45,4 @@ export const DashboardHeader = ({ onAddWidgetClick, onReset }) => {
     </div>
   );
 };
+

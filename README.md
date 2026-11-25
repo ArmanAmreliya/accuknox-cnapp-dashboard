@@ -126,3 +126,4 @@ vercel
 3. Click **Add New Project** -> **Import Git Repository**.
 4. Framework preset will automatically detect **Vite**.
 5. Click **Deploy**. Your live dashboard URL will be generated in under a minute!
+

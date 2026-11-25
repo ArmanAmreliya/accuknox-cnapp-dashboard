@@ -46,3 +46,4 @@ export const Navbar = ({ searchQuery, onSearchChange }) => {
     </header>
   );
 };
+

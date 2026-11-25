@@ -11,3 +11,4 @@ export const EmptyWidgetState = ({ text = "No Graph data available!" }) => {
     </div>
   );
 };
+
